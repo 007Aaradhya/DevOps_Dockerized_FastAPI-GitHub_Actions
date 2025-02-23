@@ -1,18 +1,5 @@
 # Dockerized FastAPI Application with GitHub Actions
 
-## 📌 Project Overview
-This project demonstrates **Continuous Delivery** by automating the creation and deployment of a **Dockerized FastAPI application** using GitHub Actions.
-
-## 📂 Project Structure
-```
-├── main.py                 # FastAPI application
-├── requirements.txt        # Dependencies for FastAPI
-├── Dockerfile              # Docker configuration file
-├── .github/workflows/      # GitHub Actions workflow for CI/CD
-│   ├── DockerBuild.yml     # Automates Docker build and push
-└── README.md               # Project documentation
-```
-
 ## 🚀 How to Install and Run Locally
 ```sh
 # Clone the repository
