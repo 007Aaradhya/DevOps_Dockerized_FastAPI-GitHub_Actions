@@ -5,10 +5,14 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v3
-      - name: Build & Push Image
+
+      - name: Log in to Docker Hub
         run: |
-          echo ${{ secrets.DOCKERTOKEN }} | docker login -u "aaradhyaag" --password-stdin
+          echo "${{ secrets.DOCKERTOKEN }}" | docker login -u "aaradhyaag" --password-stdin
+
+      - name: Build and push Docker image
+        run: |
           docker build -t aaradhyaag/fastapi-app:latest .
           docker push aaradhyaag/fastapi-app:latest
