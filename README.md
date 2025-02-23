@@ -56,15 +56,6 @@ Visit **http://localhost:8000/docs** to test the API.
    - **DOCKERTOKEN** → Your Docker Hub Access Token
 
 ## 🔄 Deployment Details
-- **GitHub Repository:** [Click Here](https://github.com/007Aaradhya/DevOps_Dockerized_FastAPI-GitHub_Actions)
-- **Docker Hub Image:** [Click Here](https://hub.docker.com/r/aaradhyaag/fastapi-app)
+- **GitHub Repository:** https://github.com/007Aaradhya/DevOps_Dockerized_FastAPI-GitHub_Actions
+- **Docker Hub Image:** https://hub.docker.com/r/aaradhyaag/fastapi-app
 
-## 🎯 Final Steps Before Submission
-✔ Ensure **GitHub Pages is disabled** (Settings → Pages → Set branch to None).  
-✔ Verify **GitHub Actions successfully builds & pushes the Docker image** ([Check Actions tab](https://github.com/007Aaradhya/DevOps_Dockerized_FastAPI-GitHub_Actions/actions)).  
-✔ Confirm **Docker Hub contains the uploaded FastAPI image**.  
-✔ Run the container locally using:
-```sh
-docker run -p 8000:80 aaradhyaag/fastapi-app:latest
-```
-✔ Visit **http://localhost:8000/docs** and test the API.
